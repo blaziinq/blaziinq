@@ -1,0 +1,49 @@
+body {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(62, 62, 62);
+  color: white !important;
+  overflow: hidden;
+}
+
+.text {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+ul {
+  text-align: center;
+  list-style-position: inside;
+}
+
+.elements_centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.elements_centered img {
+  height: 50vw;
+}
+
+@media screen and (max-width: 600px){
+  .elements_centered img {
+    height: 70vw;
+  }
+}
